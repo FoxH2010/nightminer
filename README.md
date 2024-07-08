@@ -51,7 +51,9 @@ This is the detailed description
     -v, --version               show program's version number and exit
 
 
-    Example:
+
+Example:
+
         python nightminer.py -o stratum+tcp://foobar.com:3333 -u user -p passwd
                                                                                                                                               
 
