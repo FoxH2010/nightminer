@@ -7,6 +7,7 @@ Disclaimer
 -----------
 
 This project is started by Richard Moore, though it's just support Python 2. I revisisted this project and made it Python 3.  
+This README.md file is not equivalent to Richard Moore's original version. Consider reading it carefully.
 
 At a Glance
 -----------
