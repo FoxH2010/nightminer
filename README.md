@@ -6,7 +6,7 @@ A very simple pure Python implementation of a CryptoCurrency stratum CPU mining 
 Disclaimer  
 -----------
 
-This project is started by Richard Moore, though it's just support Python 2. I revisited this project and made it Python 3. You can see the original project [here][https://github.com/ricmoo/nightminer].
+This project is started by Richard Moore, though it's just support Python 2. I revisited this project and made it Python 3. You can see the original project [here][https://github.com/ricmoo/nightminer].  
 This README.md file is not equivalent to Richard Moore's original version. Consider reading it carefully.
 
 At a Glance
