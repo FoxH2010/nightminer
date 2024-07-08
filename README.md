@@ -15,7 +15,7 @@ At a Glance
 * Simple, one file
 * Supports Scrypt (litecoin, dogecoin, etc) and SHA256d (bitcoin, namecoin, etc)
 * Stratum (and only stratum)
-* You need to install scrypt and ltc_scrypt library in order to make this function normally
+* You need to install `scrypt` and `ltc_scrypt` library in order to make this function normally
 * 100% pure Python implementation
 * Attempts to detect faster implementations of scrypt (pure Python is SLOW)
 * Enable protocol chatter (-P) to see messages to and from the server
