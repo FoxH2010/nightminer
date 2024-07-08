@@ -26,6 +26,14 @@ Command Line Interface
                          [-O USERNAME:PASSWORD] [-a {scrypt,sha256d}] [-B] [-q]
                          [-P] [-d] [-v]
 
+or
+
+    py nightminer.py [-h] [-o URL] [-u USERNAME] [-p PASSWORD]
+                     [-O USERNAME:PASSWORD] [-a {scrypt,sha256d}] [-B] [-q]
+                     [-P] [-d] [-v]
+
+This is the detailed description
+
     -o URL, --url=              stratum mining server url
     -u USERNAME, --user=        username for mining server
     -p PASSWORD, --pass=        password for mining server
@@ -216,3 +224,5 @@ Umm... Ok? :-)
 _Bitcoin_  - `1LNdGsYtZXWeiKjGba7T997qvzrWqLXLma`
 _Litecoin_ - `LXths3ddkRtuFqFAU7sonQ678bSGkXzh5Q`
 _Namecoin_ - `N6JLCggCyYcpcUq3ydJtLxv67eEJg4Ntk2`
+
+Another disclaimer: The transaction address up there is Richard Moore's address. I don't need support, if you do, you should support the original author.
