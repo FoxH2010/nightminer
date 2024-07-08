@@ -30,6 +30,7 @@ There's some chance that you would likely to encounter problem with installing `
 * You need to have at least Microsoft Visual C++ 14.0 or above
 * If you do have Visual C++ 14.0 or above, but the problem persist, consider reinstall Python (3.8.10 or older)
 * If the problem still doesn't go away, you can try the following in your directory if you have `git` installed:
+
     git clone https://github.com/dogecoin/ltc-scrypt.git
 
 Here's how to use NightMiner:
