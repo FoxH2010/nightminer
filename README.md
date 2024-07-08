@@ -6,7 +6,7 @@ A very simple pure Python implementation of a CryptoCurrency stratum CPU mining 
 Discalaimer  
 -----------
 
-This project is started by Richard Moore, thought it's just support Python 2. I revisisted this project and made it Python 3.  
+This project is started by Richard Moore, though it's just support Python 2. I revisisted this project and made it Python 3.  
 
 At a Glance
 -----------
