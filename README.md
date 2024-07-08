@@ -14,13 +14,25 @@ At a Glance
 * Simple, one file
 * Supports Scrypt (litecoin, dogecoin, etc) and SHA256d (bitcoin, namecoin, etc)
 * Stratum (and only stratum)
-* Zero dependencies (beyond standard Python libraries)
+* You need to install scrypt and ltc_scrypt library in order to make this function normally
 * 100% pure Python implementation
 * Attempts to detect faster implementations of scrypt (pure Python is SLOW)
 * Enable protocol chatter (-P) to see messages to and from the server
 
 Command Line Interface
 ----------------------
+Before you run the code, you should install `scrypt` and `ltc_scrypt` library. Here's how you can do it:
+
+    python -m pip install scrypt
+    python -m pip install ltc_scrypt
+
+There's some chance that you would likely to encounter problem with installing `ltc_scrypt`, so I'd make it easier for you:  
+* You need to have at least Microsoft Visual C++ 14.0 or above
+* If you do have Visual C++ 14.0 or above, but the problem persist, consider reinstall Python (3.8.10 or older)
+* If the problem still doesn't go away, you can try the following in your directory if you have `git` installed:
+    git clone https://github.com/dogecoin/ltc-scrypt.git
+
+Here's how to use NightMiner:
 
     python nightminer.py [-h] [-o URL] [-u USERNAME] [-p PASSWORD]
                          [-O USERNAME:PASSWORD] [-a {scrypt,sha256d}] [-B] [-q]
