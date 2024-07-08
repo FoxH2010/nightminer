@@ -3,7 +3,7 @@ NightMiner for Python 3
 
 A very simple pure Python implementation of a CryptoCurrency stratum CPU mining client. Currently supports _scrypt_ (litecoin) and _SHA256d_ (bitcoin).  
 
-Discalaimer  
+Disclaimer  
 -----------
 
 This project is started by Richard Moore, though it's just support Python 2. I revisisted this project and made it Python 3.  
